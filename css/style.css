@@ -1,0 +1,552 @@
+/* navigation bar  */
+
+/* file Name: style.css */
+
+/* #loader_bg{
+    position: fixed;
+   background: url(../loader/BackIllinformedAsianelephant-size_restricted.gif) no-repeat center center;
+   border: 2px solid gray;
+   width: 100%;
+   height: 100vh;
+   z-index: 100;
+} */
+
+#top-nav{
+    background-color: #daac00;
+    padding: 0 8%;
+}
+
+.navbar-nav .nav-link {
+   color: white;
+   font-size: 20px;
+   margin: 0px 20px;
+}
+
+#searchbox{
+    background-color: #fcc302;
+    border: none;
+    border-radius: none;
+    position: relative;
+    left: 17px;
+}
+
+#searchbox::placeholder{
+    color: white;
+}
+
+#searchbox{
+    box-shadow: 2px 3px 6px 5px #c99c0a;
+}
+
+#btn-search{
+    background-color: #00bec9;
+    position: relative;
+    z-index: 99;
+    color: white;
+    border: none;
+    border-radius: 0;
+    /* height: 40px; */
+    transition: 0.2s ease-in;
+}
+
+#btn-search:hover{
+    background-color: #06acb4;
+}
+
+/* media quaries on navbar */
+
+/* home section */
+
+#yellowclr{
+    background-color: #fcc302;
+    height: 600px;
+}
+
+#yellowclr #firstwnt{
+    color: white;
+    font-size: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    
+}
+
+/* css online animation */
+    
+
+/* css animation end */
+
+#yellowclr #articl-dog{
+    color: white;
+}
+
+button[type='cont1']{
+    background-color: #06acb4;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 10px;
+}
+
+button[type='cont2']{
+    border: 1px solid white;
+    background-color:#fcc302;
+    border-radius: 12px;
+    color: white;
+    padding: 9px;
+    margin-left: 10px;
+}
+
+button:hover[type='cont2']{
+    background-color: #daac00;   
+}
+
+button:hover[type='cont1']{
+    background-color: #0bc7d1;
+}
+
+/* media quaries on home section */
+
+@media only screen and (max-width: 500px){
+    #yellowclr #firstwnt{
+        margin: 10px 0px;
+        position: relative;
+        left: 23px;
+        font-size: 30px;
+    }
+
+    #yellowclr #img-none{
+       display: none;
+    }
+
+    #yellowclr #articl-dog{
+        position: relative;
+        left: 23px;
+    }
+    #yellowclr button{
+        position: relative;
+        left: 23px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    #yellowclr #firstwnt {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #yellowclr{
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    img{
+        width: 200px;
+    }
+}
+
+/* Home section start by dogs washes*/
+
+#animals-love{
+    background-color: whitesmoke;
+    border-top: 4px solid white;
+    box-shadow: inset 0px 9px 5px 2px rgb(236, 235, 235);
+}
+
+#title-here{
+    margin-top: 140px;
+    font-size: 2.4rem;
+    color: rgb(53, 53, 53);
+}
+
+#title-artical{
+   
+    font-size: 1.8rem;
+
+}
+
+#btn-service{
+    border: 0;
+    background-color: #fcc302;
+    color: white;
+    padding: 13px;
+    border-radius: 10px;
+}
+
+#btn-service:hover{
+    background-color: #f3c019;
+}
+
+/* media quaries on home section */
+
+@media only screen and (max-width: 500px){
+    #title-here{
+        margin-top: 30px;
+        font-size: 2.4rem;
+        color: rgb(53, 53, 53);
+    }
+
+    #dog-imge{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #title-here{
+        margin-top: 44px;
+        font-size: 2.4rem;
+        color: rgb(53, 53, 53);
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .title-here2 h2 {
+        font-weight: 900;
+        margin-top: 50px;
+    }
+}
+
+/* title here section  */
+
+.title-clr{
+    background-color: #f3c019;
+}
+
+#exact-title{
+    font-weight: 800;
+}
+
+/* veterinarina section2  */
+
+#title2{
+    margin-top: 100px;
+    font-weight: 900;
+    font-size: 2.4rem;
+}
+
+#title2-articls{
+    font-size: 2.0rem;
+}
+
+#servic-btn2{
+    border: none;
+    background-color: #f3c019;
+    color: white;
+    padding: 13px;
+    border-radius: 10px;
+}
+
+
+#servic-btn2:hover{
+    background-color: #ffc400;
+}
+/* media quaries on veternairina section2 */
+@media only screen and (max-width:500px){
+    #img-shap2{
+        width: 100%;
+    }
+
+    #title2 {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    #img-shap2{
+        margin-top: 100px;
+    }
+
+}
+
+/* title2 section */
+
+.title-here2{
+    background-color: #fcc302;
+    color: white;
+}
+
+.title-here2 h2{
+    font-weight: 900;
+}
+
+.title-here2 #buy-btn{
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    color: white;
+    background-color: #00bec9;
+    margin-top: 10px;
+}
+
+.title-here2 #buy-btn:hover{
+    background-color: #16f0fc;
+}
+
+/* media quaries */
+
+@media only screen and (max-width:500px){
+    .title-here2 #buy-btn {
+      
+        margin-right: 40px;
+        margin-top: 3px;
+    
+      
+    }
+}
+
+/* department vaccination section */
+
+#client-img::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/photo-1627163439134-7a8c47e08208.jfif);
+    opacity: 0.4;
+}
+
+#icon-font{
+    font-size: 70px;
+}
+
+#client-img h2{
+    font-weight: 900;
+}
+
+#client-img p{
+    margin-top: 20px;
+}
+
+/* media quaries on client section */
+
+@media only screen and (max-width: 500px){
+    #client-img::before{
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    
+    #icon-font{
+       position: relative;
+       top: 100px;
+    }
+
+    #client-img h2{
+        position: relative;
+       top: 100px;
+    }
+    #client-img p{
+        #client-img p{
+          position: relative;
+          top: 100px;
+        }
+        
+    }
+    
+}
+
+
+/* Recent post section is startd */
+
+#recent-post{
+    color: rgb(36, 35, 35);
+   
+}
+
+
+/* css animation */
+
+#recnt{
+    animation-name: focus-in-contract;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+        
+    /* shorthand
+    animation: focus-in-contract 1s linear 0s 1 normal none;*/
+}
+
+
+@keyframes focus-in-contract {
+			
+    0% {
+        letter-spacing:1em;
+        filter:blur(12px);
+        opacity:0;
+    }
+    100% {
+        filter:blur(0);
+        opacity:1;
+    }
+}
+
+
+#vaccin{
+    border: 3px solid rgb(238, 226, 226);
+    border-top: none;
+    padding-bottom: 40px;
+}
+
+#date{
+    color:#00bec9;
+    font-weight: 900;
+}
+#Read{
+    font-weight: 1000;
+  
+    color:#0dbfcc;
+}
+
+#Read:hover{
+    
+    color: red;
+}
+
+
+/* median quaries on recent posts page */
+
+
+@media only screen and (max-width:500px){
+    #recent-post{
+        color: red;
+        padding-top: 180px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+
+
+    #recent-para{
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1400px){
+    #client-img h2 {
+        margin-top: 100px;
+        /* margin-top: 70px; */
+    }
+}
+
+/* last footer section */
+
+#form-group{
+    margin: 30px;
+}
+
+.footer-color{
+    background-color: rgb(53, 50, 50);
+    list-style: none;
+}
+
+.footer-color li{
+    background-color: rgb(53, 50, 50);
+    list-style: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#footer-search{
+    background-color: #f3c019;
+    width: 100%;
+    max-width: 70%;
+    height: 50px;
+    position: relative;
+    left: 20px;
+   
+}
+
+#icn{
+    font-size: 24px;
+    margin: 7px;
+}
+#submit-btn{
+   
+    background-color: #06acb4;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 23px;
+    padding-right: 20px;
+    position: relative;
+    left: 9px;
+    padding: 14px;
+}
+
+#about{
+    margin-right: 54px;
+}
+
+#title-heree{
+    padding-right: 50px;
+}
+
+/* just i fire media quaries on the footer section */
+
+@media only screen and (max-width:768px){
+    #footer-search{
+        width: 65%;
+    }
+}
+
+#copy-wright{
+    opacity: 0.8;
+    margin-top: 12px;
+}
+
+
+#img-none{
+    animation: dog;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dog {
+    0%{
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 0.3;
+       
+    }
+    50%{
+        opacity: 0.5;
+      
+       
+    }
+    75%{
+        opacity: 0.8;
+        /* margin-top: 4px; */
+     
+      
+    }
+
+    100%{
+        opacity: 1;
+        /* margin-bottom: 20px; */
+       
+    }
+}
+
+
+/* About section */
+
+ 
+/* no need of media quaries and project also end*/
+
+
+
